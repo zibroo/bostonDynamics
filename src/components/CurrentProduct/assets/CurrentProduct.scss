@@ -1,0 +1,165 @@
+@import '../../../variables/Variables.scss';
+.current-product-main-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+.current-product-image{
+    height: 600px;
+    width: 500px;
+    img{
+        width: 700px;
+        height: 500px;
+    }
+
+}
+.current-product-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    .current-product-title{
+        color:#00355a;
+        font-size: 35px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing:4px;
+        margin-top: 30px;
+    }
+    .current-product-price-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .current-product-rate{
+            color:#00355a;
+            font-family: $montserratFont;
+            font-size: 26px;
+        }
+        .current-product-price{
+            font-size: 25px;
+            color:#1b78bb;
+            font-family: $openSans;
+            font-weight: 400;
+            margin-top: 20px;
+
+
+
+
+        }
+        .current-product-buy{
+            font-size: 22px;
+            color:#1b78bb;
+            font-family: $montserratFont;
+            margin-top: 10px;
+            
+
+
+        }
+    }
+    .current-product-desc{
+        margin-top: 20px;
+        width: 500px;
+        font-size: 20px;
+        font-family: $openSans;
+        font-weight: 400;
+        color:#00355a;
+    }
+    .current-product-rating{
+        display: flex;
+        justify-content: start;
+        align-items:center;
+    .rating-heart{
+    font-size: 40px;
+    &:hover{
+        cursor: pointer;
+    }
+    }
+    .rating-number{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    }
+}
+}
+.commits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .commits-title{
+        color:#00355a;
+        font-size: 45px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing:4px;
+       
+    }
+    .send-rate{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 25px;
+        input{
+            border:solid 2px #00355a;
+            width: 50px;
+            height: 40px;
+            text-align:center;
+            outline:none;
+            color:#00355a;
+        }
+        button{
+            height: 40px;
+            width: 50px;
+            background:#00355a;
+            border:solid 2px #00355a;
+            color:#fff;
+            font-family: $montserratFont;
+            font-size: 14px;
+
+        }
+    }
+    .send-commit{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        input{
+            border:solid 2px #00355a;
+            width: 250px;
+            height: 40px;
+            text-align:center;
+            outline:none;
+            color:#00355a;
+        }
+        button{
+            height: 40px;
+            width: 120px;
+            background:#00355a;
+            border:solid 2px #00355a;
+            color:#fff;
+            font-family: $montserratFont;
+            font-size: 14px;
+
+        }
+    }
+    
+}
+.commits-div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    .coment{
+      width: 400px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: solid 2px #00355a;
+      font-family: $montserratFont;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+}

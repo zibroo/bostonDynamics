@@ -1,0 +1,30 @@
+@import url(d:\Makers\my_project\src\components\Navbar\assets\Navbar.css);
+@import url(d:\Makers\my_project\src\components\Products\assets\Products.css);
+@import url(d:\Makers\my_project\src\components\Divs\Spot\assets\Spot.css);
+@import url(d:\Makers\my_project\src\components\Divs\Stretch\assets\Stretch.css);
+@import url(d:\Makers\my_project\src\components\Mainpage\VideoDiv\assets\VideoDiv.css);
+@import url(d:\Makers\my_project\src\components\Mainpage\Line\assets\Line.css);
+@import url(d:\Makers\my_project\src\components\AllProducts\assets\AllProducts.css);
+@import url(d:\Makers\my_project\src\components\AdminPage\assets\AdminTable.css);
+@import url(d:\Makers\my_project\src\components\AddProductPage\assets\AddProduct.css);
+@import url(d:\Makers\my_project\src\components\EditProduct\assets\EditProduct.css);
+@import url(d:\Makers\my_project\src\components\Paggination\assets\Paggination.css);
+@import url(d:\Makers\my_project\src\components\CurrentProduct\assets\CurrentProduct.css);
+@import url(d:\Makers\my_project\src\components\LogPage\assets\LogPage.css);
+@import url(d:\Makers\my_project\src\components\YourAccount\assets\YourAccount.css);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+/*# sourceMappingURL=Styles.css.map */

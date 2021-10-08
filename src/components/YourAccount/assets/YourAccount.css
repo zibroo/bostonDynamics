@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+.title-fav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-fav .title-fav1 {
+  color: #00355a;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-top: 30px;
+}
+
+.title-fav .adminPush:hover {
+  cursor: pointer;
+}
+
+.title-fav span {
+  color: #00355a;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-top: 30px;
+}
+
+.title-fav .search-inp-fav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.title-fav .search-inp-fav input {
+  width: 300px;
+  border: 2px solid #00355a;
+  outline: none;
+  text-align: center;
+}
+
+.title-fav .search-inp-fav .filter-select-fav {
+  height: 30px;
+  width: 40px;
+}
+
+.title-fav .search-inp-fav .filter-select-fav option {
+  margin-top: 10px;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background: #00355a;
+}
+
+.products-container-fav {
+  width: 85%;
+  margin: 45px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.products-container-fav div {
+  width: 300px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.products-container-fav div img {
+  width: 300px;
+  height: 200px;
+}
+
+.products-container-fav div .products-text-fav {
+  margin-top: 20px;
+}
+
+.products-container-fav div .products-text-fav .products-title-fav {
+  color: #0590c8;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.products-container-fav div .products-text-fav .products-title-fav:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline 1px #0590c8;
+          text-decoration: underline 1px #0590c8;
+  text-underline-offset: 5px;
+}
+
+.products-container-fav div .products-text-fav .products-description-fav .products-price-fav {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #00355a;
+  margin-top: 5px;
+}
+
+.products-container-fav div .products-text-fav .products-texts-fav {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #00355a;
+  line-height: 1.4;
+}
+
+.products-container-fav div .products-text-fav span {
+  font-size: 16px;
+  color: #0590c8;
+}
+
+.products-container-fav div .products-text-fav span:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline 1px #0590c8;
+          text-decoration: underline 1px #0590c8;
+  text-underline-offset: 5px;
+}
+/*# sourceMappingURL=YourAccount.css.map */

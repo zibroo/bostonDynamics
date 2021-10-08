@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+.spot {
+  height: 360px;
+  background: url("https://www.bostondynamics.com/sites/default/files/2021-02/cta-spot.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 63px;
+  padding-bottom: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spot .text-container {
+  color: #fff;
+  width: 82%;
+}
+
+.spot .text-container .text-spot {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.spot .text-container .text-spot p {
+  font-size: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.spot .text-container .text-spot span {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
+
+.spot .text-container .text-spot .btn-container-spot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.spot .text-container .text-spot .btn-container-spot button {
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #fff;
+  width: 145px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: transparent;
+  -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.spot .text-container .text-spot .btn-container-spot button:hover {
+  background: #fff;
+  color: #0590C8;
+}
+/*# sourceMappingURL=Spot.css.map */

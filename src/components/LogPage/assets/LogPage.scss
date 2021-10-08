@@ -1,0 +1,54 @@
+@import '../../../variables/Variables.scss';
+
+.log-container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span{
+         color:#00355a;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing:4px;
+        margin-top: 30px;
+    }
+    .log-inputs{
+        .logs{
+            display: flex;
+            flex-direction: column;
+            input{
+                width: 300px;
+                height: 40px;
+                margin-top: 20px;
+                border:2px solid #00355a;
+                outline: none;
+                text-align: center;
+            }
+
+        }
+        .log-btns{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            .log-btn1{
+                width: 100px;
+                height: 35px;
+                border:none;
+                background-color:#005a2d;
+                color:#fff;
+                font-family: $montserratFont;
+            }
+            .log-btn2{
+                width: 100px;
+                height: 35px;
+                border:none;
+                background-color:#00575a;
+                color:#fff;
+                font-family: $montserratFont;
+
+            }
+        }
+    }
+}

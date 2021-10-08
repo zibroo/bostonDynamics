@@ -1,0 +1,44 @@
+@import '../../../variables/Variables.scss';
+.img-container{
+    width: 150px;
+    img{
+
+        width: 150px;
+        height: 100px;
+    }
+
+}
+.admin-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    span{
+        color:#00355a;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing:4px;
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#00355a;
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+        font-weight: bold;
+        background: transparent;
+        border: 2px solid #00355a;
+        transition: all 0.4s cubic-bezier(0.215,0.61,0.355,1) 0s;
+        &:hover{
+        background: #00355a;
+        color: #fff;
+
+        }
+
+    }
+}

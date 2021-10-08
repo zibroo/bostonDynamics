@@ -1,0 +1,255 @@
+{
+  "products": [
+    {
+      "title": "SPOT® EXPLORER",
+      "price": 74500,
+      "description": "Spot Explorer is designed for developers eager to explore how flexible mobile robots can be adapted for tasks ranging from industrial inspection to entertainment.",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot%20Explorer-2.jpg",
+      "type": "robots",
+      "likes": 124,
+      "rating": 4.6,
+      "reviews": 61,
+      "commits": [
+        "hello",
+        "tom",
+        "jack",
+        "good",
+        "job"
+      ],
+      "id": 2
+    },
+    {
+      "title": "SPOT® ENTERPRISE",
+      "price": 80400,
+      "description": "Spot Enterprise comes equipped with self-charging capabilities and the Spot Dock, allowing it to perform longer inspection tasks and data collection missions with little to no human interaction.",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot%20Enterprise.jpg",
+      "type": "robots",
+      "likes": 202,
+      "rating": "4.4",
+      "reviews": 16,
+      "commits": [
+        "hello"
+      ],
+      "id": 3
+    },
+    {
+      "title": "STRETCH",
+      "price": 70599,
+      "description": "Stretch is a versatile mobile robot for case handling, designed for easy deployment in existing warehouses. Unload trucks and build pallets faster by sending the robot to the work, eliminating the need for new fixed infrastructure.",
+      "image": "https://www.bostondynamics.com/sites/default/files/2021-03/stretch-fast_0.jpg",
+      "type": "robots",
+      "likes": 56,
+      "rating": 3.7,
+      "reviews": 29,
+      "commits": [],
+      "id": 4
+    },
+    {
+      "title": "+ ARM",
+      "price": 15490,
+      "description": "The Spot Arm enables users to act on data insights and perform physical work in people-centric environments.",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot%20Arm.png",
+      "type": "payloads",
+      "likes": 453,
+      "rating": 4.4,
+      "reviews": 24,
+      "commits": [],
+      "id": 5
+    },
+    {
+      "title": "+ PORTS",
+      "price": 1275,
+      "description": "Spot GXP provides regulated power and an Ethernet port for easy payload integration.",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20GXP%20ISO.jpg",
+      "type": "payloads",
+      "likes": 279,
+      "rating": 4.3,
+      "reviews": 28,
+      "commits": [],
+      "id": 6
+    },
+    {
+      "title": "+ INSPECTION",
+      "price": 29750,
+      "description": "Spot GXP provides regulated power and an Ethernet port for easy payload integration.",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20CAM+%20ISO.jpg",
+      "type": "payloads",
+      "likes": 351,
+      "rating": 3.9,
+      "reviews": 22,
+      "commits": [],
+      "id": 7
+    },
+    {
+      "title": "+ THERMAL",
+      "price": 38950,
+      "description": "Spot CAM+IR adds a pan-tilt-zoom (PTZ) camera and thermal camera to the Spot CAM to enable detailed inspections.",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot%20CAM+IR%20ISO.jpg",
+      "type": "payloads",
+      "likes": 98,
+      "rating": 3.5,
+      "reviews": 21,
+      "commits": [],
+      "id": 8
+    },
+    {
+      "title": "+ LIDAR",
+      "price": 18450,
+      "description": "Spot EAP enhances the range and accuracy of Spot’s autonomy system for use on large sites.",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20EAP%20ISO.jpg",
+      "type": "payloads",
+      "likes": 129,
+      "rating": 4.6,
+      "reviews": 28,
+      "commits": [],
+      "id": 9
+    },
+    {
+      "title": "+ EDGE CPU",
+      "price": 3925,
+      "description": "Spot CORE provides dedicated processing for applications requiring on-robot computation.",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20CORE%20ISO.jpg",
+      "type": "payloads",
+      "likes": 412,
+      "rating": 4.5,
+      "reviews": 38,
+      "commits": [],
+      "id": 10
+    },
+    {
+      "title": "+ EDGE GPU",
+      "price": 24500,
+      "description": "Spot CORE AI provides advanced processing for applications requiring on-robot computation.",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20CORE%20AI%20ISO.jpg",
+      "type": "payloads",
+      "likes": 518,
+      "rating": 4.3,
+      "reviews": 18,
+      "commits": [],
+      "id": 11
+    },
+    {
+      "title": "SCOUT",
+      "price": 1900,
+      "description": "Our web-based application that enables operators to control their fleet of Spots from a virtual control room.",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Scout.png",
+      "type": "extras",
+      "likes": 634,
+      "rating": 4.5,
+      "reviews": 58,
+      "commits": [],
+      "id": 12
+    },
+    {
+      "title": "SPOT CARE",
+      "price": 19800,
+      "description": "Our premium service plan, providing one year of extended coverage and expedited repair.",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20CARE.png",
+      "type": "extras",
+      "likes": 1209,
+      "rating": 4.6,
+      "reviews": 79,
+      "commits": [],
+      "id": 13
+    },
+    {
+      "title": "SPOT DOCK",
+      "price": 14300,
+      "description": "Additional Spot self-charging dock. Compatible only with Spot Enterprise.",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot_Dock.jpg",
+      "type": "extras",
+      "likes": 845,
+      "rating": "4.6",
+      "reviews": 16,
+      "commits": [
+        "dsfmjidjdfm",
+        "fsfdsdg"
+      ],
+      "id": 14
+    },
+    {
+      "title": "SPOT BATTERY",
+      "price": 4620,
+      "description": "Additional Spot Battery",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20Battery.jpg",
+      "type": "extras",
+      "likes": 562,
+      "rating": 4.1,
+      "reviews": 44,
+      "commits": [],
+      "id": 15
+    },
+    {
+      "title": "+SPOT BATTERY",
+      "price": 5700,
+      "description": "Additional Spot battery, designed to enable faster charging. Required when using the Spot Dock.",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot_Battery_Plus.jpg",
+      "type": "extras",
+      "likes": 875,
+      "rating": 3.9,
+      "reviews": 38,
+      "commits": [],
+      "id": 16
+    },
+    {
+      "title": "SPOT CHARGER",
+      "price": 5700,
+      "description": "Additional Spot charger",
+      "image": "https://cdn2.hubspot.net/hubfs/4845432/ECommerce/Spot%20Charger%20Closed.jpg",
+      "type": "extras",
+      "likes": 591,
+      "rating": 3.5,
+      "reviews": 21,
+      "commits": [],
+      "id": 17
+    },
+    {
+      "title": "SPOT TABLET",
+      "price": 410,
+      "description": "Additional tablet controller configured with Spot application",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot%20Tablet.png",
+      "type": "extras",
+      "likes": 284,
+      "rating": 4.9,
+      "reviews": 22,
+      "commits": [],
+      "id": 18
+    },
+    {
+      "title": "SPOT LEG PANELS",
+      "price": 1000,
+      "description": "Set of four additional upper leg panels",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot%20Leg%20Panels.png",
+      "type": "extras",
+      "likes": 164,
+      "rating": 4.2,
+      "reviews": 28,
+      "commits": [],
+      "id": 19
+    },
+    {
+      "title": "SPOT FRONT/REAR PANELS",
+      "price": 1500,
+      "description": "Set of additional front and rear panels",
+      "image": "https://f.hubspotusercontent30.net/hubfs/4845432/ECommerce/Spot%20Front%20and%20Rear%20Panels.png",
+      "type": "extras",
+      "likes": 932,
+      "rating": 4.5,
+      "reviews": 28,
+      "commits": [],
+      "id": 20
+    },
+    {
+      "title": "ddasas",
+      "price": 8,
+      "description": "sdfsd",
+      "image": "5145",
+      "type": "sfdsd",
+      "likes": 561,
+      "rating": 0,
+      "reviews": 0,
+      "commits": [],
+      "id": 22
+    }
+  ]
+}

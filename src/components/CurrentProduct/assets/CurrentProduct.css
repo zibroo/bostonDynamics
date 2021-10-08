@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+.current-product-main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.current-product-main-container .current-product-image {
+  height: 600px;
+  width: 500px;
+}
+
+.current-product-main-container .current-product-image img {
+  width: 700px;
+  height: 500px;
+}
+
+.current-product-main-container .current-product-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 40px;
+}
+
+.current-product-main-container .current-product-text .current-product-title {
+  color: #00355a;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-top: 30px;
+}
+
+.current-product-main-container .current-product-text .current-product-price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.current-product-main-container .current-product-text .current-product-price-container .current-product-rate {
+  color: #00355a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+}
+
+.current-product-main-container .current-product-text .current-product-price-container .current-product-price {
+  font-size: 25px;
+  color: #1b78bb;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.current-product-main-container .current-product-text .current-product-price-container .current-product-buy {
+  font-size: 22px;
+  color: #1b78bb;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+
+.current-product-main-container .current-product-text .current-product-desc {
+  margin-top: 20px;
+  width: 500px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #00355a;
+}
+
+.current-product-main-container .current-product-text .current-product-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.current-product-main-container .current-product-text .current-product-rating .rating-heart {
+  font-size: 40px;
+}
+
+.current-product-main-container .current-product-text .current-product-rating .rating-heart:hover {
+  cursor: pointer;
+}
+
+.current-product-main-container .current-product-text .current-product-rating .rating-number {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.commits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commits .commits-title {
+  color: #00355a;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.commits .send-rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.commits .send-rate input {
+  border: solid 2px #00355a;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  color: #00355a;
+}
+
+.commits .send-rate button {
+  height: 40px;
+  width: 50px;
+  background: #00355a;
+  border: solid 2px #00355a;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.commits .send-commit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.commits .send-commit input {
+  border: solid 2px #00355a;
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  color: #00355a;
+}
+
+.commits .send-commit button {
+  height: 40px;
+  width: 120px;
+  background: #00355a;
+  border: solid 2px #00355a;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.commits-div {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+
+.commits-div .coment {
+  width: 400px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: solid 2px #00355a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=CurrentProduct.css.map */

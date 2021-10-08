@@ -1,0 +1,107 @@
+@import '../../../variables/Variables.scss';
+
+@import '../../../variables/Variables.scss';
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    span{
+        color:#00355a;
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing:4px;
+        margin-top: 30px;
+    }
+    
+    .search-inp{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      input{
+        width: 300px;
+        border: 2px solid #00355a;
+        outline:none;
+        text-align: center;
+      }
+      .filter-select{
+        height: 30px;
+        width: 40px;
+       
+        option{
+          margin-top: 10px;
+          border: none;
+          color: #fff;
+          font-family: $montserratFont;
+          background: #00355a;
+        }
+      }
+      
+    }
+}
+.products-container{
+  width: 85%;
+  margin: 45px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media all and (max-width: 576px){
+            
+           justify-content: center;
+
+        }
+  div{
+    width: 300px;   
+    height: auto;
+    margin-bottom: 15px;
+    
+    img{
+        width: 300px;
+        height: 200px;
+    }
+    .products-text{
+      margin-top: 20px;
+      .products-title{
+        color:#0590c8;
+        font-size: 30px;
+        font-family: $openSans;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        &:hover{
+          cursor:pointer;
+          text-decoration:underline 1px #0590c8;
+          text-underline-offset: 5px;
+        }
+      }
+      .products-description{
+        .products-price{
+          font-size: 17px;
+          font-weight: 400;
+          font-family: $openSans;
+          color:#00355a;
+          margin-top: 5px;
+        }
+      }
+      .products-texts{
+        font-size: 14px;
+        font-family: $montserratFont;
+        color:#00355a;
+        line-height:1.4
+      }
+      span{
+        font-size: 16px;
+        color:#0590c8;
+        &:hover{
+          cursor:pointer;
+          text-decoration:underline 1px #0590c8;
+          text-underline-offset: 5px;
+        }
+        
+      }
+     
+    }
+  }
+
+}

@@ -1,0 +1,29 @@
+@import '../components/Navbar/assets/Navbar.css';
+@import '../components/Products/assets/Products.css';
+@import '../components/Divs/Spot/assets/Spot.css';
+@import '../components/Divs/Stretch/assets/Stretch.css';
+@import '../components/Mainpage/VideoDiv/assets/VideoDiv.css';
+@import '../components/Mainpage/Line/assets/Line.css';
+@import '../components/AllProducts/assets/AllProducts.css';
+@import '../components/AdminPage/assets/AdminTable.css';
+@import '../components/AddProductPage/assets/AddProduct.css';
+@import '../components/EditProduct/assets/EditProduct.css';
+@import '../components/Paggination/assets/Paggination.css';
+@import '../components/CurrentProduct/assets/CurrentProduct.css';
+@import '../components/LogPage/assets/LogPage.css';
+@import '../components/YourAccount/assets/YourAccount.css';
+
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.h-100{
+    height: 100%;
+}

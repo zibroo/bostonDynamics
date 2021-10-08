@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+.add-product-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+}
+
+.add-product-title span {
+  color: #00355a;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.add-product-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.add-product-inputs form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-product-inputs form .product-input {
+  width: 300px;
+  height: 50px;
+  border: 3px solid #00355a;
+  margin: 2px 0;
+  text-align: center;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #00355a;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.add-product-inputs form .product-input:focus {
+  border: 5px solid #00355a;
+  outline: none;
+}
+
+.add-product-inputs form button {
+  background-color: #00355a;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  width: 200px;
+  height: 45px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.add-product-inputs form button:hover {
+  background-color: #fff;
+  border: 4px solid #00355a;
+  color: #00355a;
+}
+/*# sourceMappingURL=AddProduct.css.map */

@@ -1,0 +1,43 @@
+@import '../../../../variables/Variables.scss';
+
+body {
+    margin:0;
+}
+.video-wrapper{
+
+    width: 100%;
+    height: 667px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    @media all and (max-width: 576px){
+            height: 300px;;
+            width: 576px;
+
+        }
+    video{
+        height: 667px;
+        margin-bottom: 0;
+        @media all and (max-width: 576px){
+            height: 300px;;
+
+        }
+    }
+    span{
+        z-index: 2;
+        font-size: 80px;
+        font-family: $openSans;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: 3px;
+        color: #fff;
+        position: absolute;
+        left: 130px;
+        top: 300px;
+        @media all and (max-width: 576px){
+            font-size: 50px;
+            top: 150px;
+
+        }
+        
+    }
+}

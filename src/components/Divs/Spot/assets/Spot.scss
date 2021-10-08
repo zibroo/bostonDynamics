@@ -1,0 +1,66 @@
+@import '../../../../variables/Variables.scss';
+
+.spot{
+    
+    height: 360px;
+    background: url('https://www.bostondynamics.com/sites/default/files/2021-02/cta-spot.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 63px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text-container{
+        color: #fff;
+        width: 82%;
+        .text-spot{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+            p{
+            font-size:80px;
+            font-family: $openSans;
+            font-weight: 300;
+            letter-spacing:5px
+        }
+        span{
+            margin-top: 10px;
+            font-size: 18px;
+            font-family: $openSans;
+            font-weight: 400;
+            letter-spacing:0.6px
+
+        }
+        .btn-container-spot{
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            button{
+            margin-left:40px ;
+            margin-top: 20px;
+            color:#fff;
+            width: 145px;
+            height: 50px;
+            font-family: $openSans;
+            font-size: 20px;
+            font-weight: 400;
+            border-radius: 8px;
+            border:2px solid #fff;
+            background: transparent;
+            transition: all 0.4s cubic-bezier(0.215,0.61,0.355,1) 0s;
+            &:hover{
+            background: #fff;
+            color:#0590C8
+        }
+        }
+        }
+        
+        
+        }
+        
+
+    }
+}

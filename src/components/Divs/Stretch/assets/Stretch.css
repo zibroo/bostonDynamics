@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+.stretch {
+  height: 340px;
+  background: url("https://www.bostondynamics.com/sites/default/files/2021-09/stretch-gradient-04-2_1.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 63px;
+  padding-bottom: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stretch .text-container {
+  color: #fff;
+  width: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.stretch .text-container .text-stretch {
+  width: 265px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.stretch .text-container .text-stretch p {
+  font-size: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.stretch .text-container .text-stretch span {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
+
+.stretch .text-container .text-stretch .btn-container-stretch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.stretch .text-container .text-stretch .btn-container-stretch button {
+  margin-top: 20px;
+  color: #fff;
+  width: 145px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: transparent;
+  -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.stretch .text-container .text-stretch .btn-container-stretch button:hover {
+  background: #fff;
+  color: #0590C8;
+}
+/*# sourceMappingURL=Stretch.css.map */

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+.log-container {
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.log-container span {
+  color: #00355a;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-top: 30px;
+}
+
+.log-container .log-inputs .logs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.log-container .log-inputs .logs input {
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  border: 2px solid #00355a;
+  outline: none;
+  text-align: center;
+}
+
+.log-container .log-inputs .log-btns {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.log-container .log-inputs .log-btns .log-btn1 {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #005a2d;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.log-container .log-inputs .log-btns .log-btn2 {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #00575a;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+/*# sourceMappingURL=LogPage.css.map */

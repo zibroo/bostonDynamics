@@ -1,0 +1,49 @@
+@import '../../../variables/Variables.scss';
+
+.pages{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    .page-container{
+        margin: 0 auto;
+        display: flex;
+        height: 40px;
+        .page{
+            height: 40px;
+            width: 40px;
+            background: #00355a;
+            border: 2px solid #00355a;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 2px;
+            font-family: $montserratFont;
+            font-size: 18px;
+             transition: all 0.4s cubic-bezier(0.215,0.61,0.355,1) 0s;
+            &:hover{
+                background: #fff;
+            border: 2px solid #00355a;
+            color: #00355a;
+            cursor:pointer;
+            }
+
+        }
+        .selected-page{
+            margin-left: 2px;
+            height: 40px;
+            width: 40px;
+            background: #fff;
+            border: 2px solid #00355a;
+            color: #00355a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: $montserratFont;
+            font-size: 18px;
+            &:hover{
+                cursor:pointer;
+            }
+        }
+    }
+}
